@@ -1,6 +1,6 @@
 package com.example.todo2.model
 
-
+data class Success(val todos: List<Todo>)
 
 data class Todo(
     var userId: Int,
